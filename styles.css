@@ -1,0 +1,205 @@
+header{
+    background-color: #ffffff;
+    color: black;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-size: 35px;
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+li{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.horizontal-list-footer{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
+#li-welcome-right{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 37px;
+}
+
+.horizontal-list-footer li{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.horizontal-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#li-footer{
+    font-size: 27px;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.intro-buttom{
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#li-welcome{
+    color:#ffffff;
+    font-size: 37px;
+    text-decoration: none;
+}
+
+#li-menu{
+    color: #ffffff;
+    font-size: 37px;
+    text-decoration: none;
+}
+
+#li-name{
+    color: #ffffff;
+    font-size: 37px;
+    text-decoration: none;
+}
+
+#li-contact{
+    color: #ffffff;
+    font-size: 37px;
+    text-decoration: none;
+}
+
+.banner-welcome{
+    color:#ffffff;
+    font-size: 37px;
+}
+.learn-more{
+    display: block;
+}
+
+.menu{
+    display: block;
+    background-color: #ffffff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.menu-bar{
+    background-color: black;
+}
+
+button{
+    background-color: black;
+    color:#ffffff;
+    margin-top:35px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.address, .phone, .email, .social{
+    font-size: 25px;
+    color:black;
+    text-align: left;
+    margin: 25px;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+.menu-gallery{
+    display: flex;
+    justify-content: center;
+}
+.menu-gallery img{
+    width: 100%;
+    max-width: 550px;
+    height: 500px;
+    object-fit: cover;
+    border-end-end-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+
+}
+
