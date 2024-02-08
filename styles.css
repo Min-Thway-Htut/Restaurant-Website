@@ -203,3 +203,36 @@ figcaption{
 
 }
 
+#broths, #meat, #vegetables, #sauce, #drink{
+    display: block;
+    text-align: center;
+}
+
+.price{
+    text-align: right;
+}
+
+.item-broths, .item-meat, .item-vegetables, .item-sauce, .item-drink{
+    text-align: left;
+    width: 25%;
+}
+.item p{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.menu-logo{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-logo.meat, .menu-logo.vegetables, .menu-logo.sauce, .menu-logo.drink{
+    display: block;
+    width: 150px;
+    height: 150px;
+}
