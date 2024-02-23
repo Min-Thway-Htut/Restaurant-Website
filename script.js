@@ -27,6 +27,11 @@ function chickenDescription(){
         document.getElementById("chicken-menu").innerHTML = chickenDescription;
     }
 
+function blackchickenDescription(){
+        let blackchickenDescription = "Explore the exquisite taste of black chicken, a delicacy renowned for its succulence and depth of flavor. Delight in tender, juicy meat, perfect for creating unforgettable culinary experiences.";
+        document.getElementById("blackchicken-menu").innerHTML = blackchickenDescription;
+    }
+
 function seafoodDescription(){
         let seafoodDescription = "Savor the ocean's bounty with our seafood broth, brimming with the fresh flavors of the sea and aromatic herbs, creating a delightful and invigorating taste experience.";
         document.getElementById("seafood-menu").innerHTML = seafoodDescription;
