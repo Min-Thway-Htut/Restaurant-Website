@@ -26,46 +26,74 @@
             <img class="menu-logo" src="images/broth-logo.png" alt="broth" />
             <article class="item"> 
                 <p class = "item-broths">Spicy Broth</p><p class="price">5,00</p>
-            </article>    
-            <button onclick="spicyBrothDetails()" class="menu-details">See menu details</button>
+                <button onclick="spicyBrothDetails()" class="menu-details">See menu details</button>
                 <p class="broth-description" id="spicy-broth"></p>
+            </article>    
 
             <article class="item">
                 <p class = "item-broths" id="herbal-broth">Herbal Broth</p><p class="price">5,00</p>
+                <button onclick="herbalBrothDetails()" class="menu-details">See menu details</button>
+                <p id="herbal-broth"></p>
             </article>
-
 
 
             <article class="item">
                 <p class = "item-broths" id="mushroom-broth">Mushroom Broth</p><p class="price">5,00</p>
+                <button onclick="mushroomBrothDetails()" class="menu-details">See menu details</button>
+                <p id="mushroom-broth"></p>
+
             </article>
+          
             <hr />
 
             <h3 id="meat">Meat</h3>
             <img class="menu-logo meat" src="images/meat-logo.jpg" id = "meat-logo" alt="meat" />
             <article class="item">
                 <p class = "item-meat">Beef</p><p class="price">1,00</p>
+                <button onclick = "beefDescription()" class="menu-details">See more details</button>
+
+                <p class="broth-description" id="meat-item"></p>
             </article>
+
             <article class="item">
                 <p class = "item-meat">Lamb</p><p class="price">1,50</p>
+                <button onclick="lambDescription()" class="menu-details">See menu details</button>
+                <p class="broth-description" id="lamb-menu"></p>
+
             </article>
+
             <article class="item">
                 <p class = "item-meat">Pork</p><p class="price">1,00</p>
+                <button onclick="porkDescription()" class="menu-details">See menu details</button>
+                <p class="broth-description" id="pork-menu"></p>
+
             </article>
+
             <article class="item">
                 <p class = "item-meat">Chicken</p><p class="price">1,00</p>
+                <button onclick="chickenDescription()" class="menu-details">See menu details</button>
+                <p class="broth-description" id="chicken-menu"></p>
             </article>
+
             <article class="item">
                 <p class = "item-meat">Black Chicken</p><p class="price">1,50</p>
+                <button class="menu-details">See menu details</button> 
             </article>
+
             <article class="item">
                 <p class = "item-meat">Seafood</p><p class="price">2,00</p>
+                <button onclick="seafoodDescription()" class="menu-details">See menu details</button>
+                <p class="broth-description" id="seafood-menu"></p>
             </article>
+
             <article class="item">
                 <p class = "item-meat">Beef Balls</p><p class="price">1,00</p>
+                <button class="menu-details">See menu details</button>
             </article>
+
             <article class="item">
                 <p class = "item-meat">Chicken Meatballs</p><p class="price">1,00</p>
+                <button class="menu-details">See menu details</button>
             </article>
             <hr />
 
@@ -73,18 +101,27 @@
             <img class="menu-logo vegetables" src="images/vegetables-logo.png" alt="vegetables" />
             <article class="item">
                 <p class="item-vegetables">Mushrooms</p><p class="price">0,25</p>
+                <button class="menu-details">See menu details</button>
             </article>
+
             <article class="item">
                 <p class="item-vegetables">Chinese Cabbage</p><p class="price">0,25</p>
+                <button class="menu-details">See menu details</button>
             </article>
+
             <article class="item">
                 <p class="item-vegetables">Carrots</p><p class="price">0,25</p>
+                <button class="menu-details">See menu details</button>
             </article>
+
             <article class="item">
                 <p class="item-vegetables">Broccoli</p><p class="price">0,25</p>
+                <button class="menu-details">See menu details</button>
             </article>
+
             <article class="item">
                 <p class="item-vegetables">Baby Corn</p><p class="price">0,25</p>
+                <button class="menu-details">See menu details</button>
             </article>
         <hr/>
 
@@ -92,12 +129,18 @@
             <img class="menu-logo sauce" src="images/sauce-logo.jpg" alt="sauce" />
             <article class="item">
                 <p class="item-sauce">Soy Sauce</p>
+                <button onclick="spicyBrothDetails()" class="menu-details">See menu details</button>
+                <p class="broth-description" id="spicy-broth"></p>
             </article>
+
             <article class="item">
                 <p class="item-sauce">Spicy Sauce</p>
+                <button class="menu-details">See menu details</button>
             </article>
+
             <article class="item">
                 <p class="item-sauce">Normal Sauce</p>
+                <button class="menu-details">See menu details</button>
             </article>
             <hr />
 
