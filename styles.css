@@ -290,7 +290,24 @@ figcaption{
     display: block;
     font-size: 30px;
     
-
   }
-  
-  
+
+
+.menu-details{
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.broth-description{
+    color: red;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+

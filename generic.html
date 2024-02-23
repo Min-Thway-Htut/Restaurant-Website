@@ -20,25 +20,24 @@
             </div>
         </section>
 
-        <div class="topnav">
-            <form>
-            <input id="search-food" type="text" placeholder="Search your food...  ">
-            <button type="submit" class="search-button">Search</button>
-        </div>
-      
-    
         <section class="menu" id="menu">
             <h1>MENU</h1>
             <h3 id="broths">Broth</h3>
             <img class="menu-logo" src="images/broth-logo.png" alt="broth" />
             <article class="item"> 
                 <p class = "item-broths">Spicy Broth</p><p class="price">5,00</p>
-            </article>
+            </article>    
+            <button onclick="spicyBrothDetails()" class="menu-details">See menu details</button>
+                <p class="broth-description" id="spicy-broth"></p>
+
             <article class="item">
-                <p class = "item-broths">Herbal Broth</p><p class="price">5,00</p>
+                <p class = "item-broths" id="herbal-broth">Herbal Broth</p><p class="price">5,00</p>
             </article>
+
+
+
             <article class="item">
-                <p class = "item-broths">Mushroom Broth</p><p class="price">5,00</p>
+                <p class = "item-broths" id="mushroom-broth">Mushroom Broth</p><p class="price">5,00</p>
             </article>
             <hr />
 
@@ -125,5 +124,6 @@
             </div>
         </section>
         <script src="./script.js"></script>
+        <script src="./navagation.js" defer></script>
     </body>
 </html>
