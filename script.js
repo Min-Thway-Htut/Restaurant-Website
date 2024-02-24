@@ -36,3 +36,23 @@ function seafoodDescription(){
         let seafoodDescription = "Savor the ocean's bounty with our seafood broth, brimming with the fresh flavors of the sea and aromatic herbs, creating a delightful and invigorating taste experience.";
         document.getElementById("seafood-menu").innerHTML = seafoodDescription;
     }
+
+function beefballsDescription(){
+        let beefballsDescription = "Beef balls are savory delights, fashioned from ground beef and a medley of spices, shaped into perfect spheres. These tender morsels are versatile, adding rich flavor to soups, noodle dishes, or enjoyed on their own.";
+        document.getElementById("beefballs-menu").innerHTML = beefballsDescription;
+    }
+
+function chickenMeatBallsDescription(){
+        let chickenMeatBallsDescription = "Chicken meatballs are flavorful orbs crafted from finely minced chicken, seasoned with a blend of herbs and spices. These versatile morsels can be baked, fried, or simmered, adding a delicious protein boost to pasta dishes or served as appetizers.";
+        document.getElementById("chickenMeatBalls-menu").innerHTML = chickenMeatBallsDescription;
+    }
+
+function vegetableDescription(){
+        let vegetableDescription = "The vegetables here are always fresh and 100% organic as they are planted on our own farm. "
+        document.getElementById("vegetable-menu").innerHTML = vegetableDescription;
+    }
+
+function sauceDescription(){
+        let sauceDescription = "Our home-made sauce is the highlight of 'Thint Sate Kyike'.";
+        document.getElementById("sauce-menu").innerHTML = sauceDescription;
+    }
