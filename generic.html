@@ -32,8 +32,15 @@
 
             <article class="item">
                 <p class = "item-broths" id="herbal-broth">Herbal Broth</p><p class="price">5,00</p>
-                <button onclick="herbalBrothDetails()" class="menu-details">See menu details</button>
-                <p id="herbal-broth"></p>
+                <button onclick="herbalBrothDescription()" class="menu-details">See menu details</button>
+                <p id="herbal-broth" class="broth-description"></p>
+                
+                <script>
+                    function herbalBrothDescription(){
+                        let herbalBrothDescription = "best herbalbroth";
+                        document.getElementById("herbal-broth").innerHTML = herbalBrothDescription;
+                    }
+                </script>
             </article>
 
 

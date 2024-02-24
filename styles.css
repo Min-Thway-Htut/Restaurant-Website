@@ -175,6 +175,10 @@ button{
     padding-top: 20px;
 }
 
+.learn-more:hover{
+    background-color: grey;
+}
+
 .address, .phone, .email, .social{
     font-size: 25px;
     color:black;
@@ -361,4 +365,13 @@ input[type="submit"]{
     text-align: center;
   }
 
+input[type="submit"]:hover{
+    background-color: gray;
+}
+
+
+.menu-details:hover{
+    background-color: red;
+    color: white;
+}
 
