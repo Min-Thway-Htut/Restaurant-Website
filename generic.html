@@ -20,8 +20,25 @@
             </div>
         </section>
 
+
         <section class="menu" id="menu">
             <h1>MENU</h1>
+
+
+            <div class="search-wrapper">
+                <input type="search" id="search" placeholder="Search menu...">
+                <button>Search</button>
+            </div>
+
+            <div class="result-box">
+                <ul>
+                    <li>Spicy Broth</li>
+                    <li>Herbal Broth</li>
+                    <li>Mushrooms Broth</li>
+                </ul>
+            </div>
+
+
             <h3 id="broths">Broth</h3>
             <img class="menu-logo" src="images/broth-logo.png" alt="broth" />
             <article class="item"> 
@@ -33,7 +50,6 @@
             <article class="item">
                 <p class = "item-broths" id="herbal-broth">Herbal Broth</p><p class="price">5,00</p>
                 <button onclick="herbalBrothDescription()" class="menu-details">See menu details</button>
-                <p id="herbal-broth" class="broth-description"></p>
                 
                 <script>
                     function herbalBrothDescription(){
@@ -41,20 +57,22 @@
                         document.getElementById("herbal-broth").innerHTML = herbalBrothDescription;
                     }
                 </script>
+
+<p id="herbal-broth" class="broth-description"></p>
             </article>
 
-
+            
             <article class="item">
                 <p class = "item-broths" id="mushroom-broth">Mushroom Broth</p><p class="price">5,00</p>
                 <button onclick="mushroomBrothDetails()" class="menu-details">See menu details</button>
-                <p id="mushroom-broth"></p>
+                <p id="mushroom-broth" class="broth-description"></p>
 
             </article>
           
             <hr />
 
             <h3 id="meat">Meat</h3>
-            <img class="menu-logo meat" src="images/meat-logo.jpg" id = "meat-logo" alt="meat" />
+            <img class="menu-logo meat" src="images/meat-logo.jpg" id="meat-logo" alt="meat" />
             <article class="item">
                 <p class = "item-meat">Beef</p><p class="price">1,00</p>
                 <button onclick = "beefDescription()" class="menu-details">See more details</button>
