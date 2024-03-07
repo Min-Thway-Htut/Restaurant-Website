@@ -56,3 +56,66 @@ function sauceDescription(){
         let sauceDescription = "Our home-made sauce is the highlight of 'Thint Sate Kyike'.";
         document.getElementById("sauce-menu").innerHTML = sauceDescription;
     }
+
+
+let availableMenus = [
+    'Spicy Broth',
+    'Herbal Broth',
+    'Mushrooms Broth',
+    'Beef',
+    'Lamb',
+    'Pork',
+    'Chicken',
+    'Black Chicken',
+    'Seafood',
+    'Beef Balls',
+    'Chicken Meatballs',
+    'Mushrooms',
+    'Chinese Cabbage',
+    'Carrots',
+    'Broccoli',
+    'Baby Corn',
+    'Soy Sauce',
+    'Spicy Sauce',
+    'Normal Sauce',
+    'Coca Cola',
+    'Beer',
+    'Grape Juice',
+    'Coke Zero',
+    'Orange Juice',
+    'Pepsi',
+    'Apple Juice',
+];
+
+const resultsBox = document.querySelector(".result-box");
+const inputBox = document.getElementById("search");
+
+inputBox.onkeyup = function(){
+    let result = [];
+    let input = inputBox.value;
+    if(input.length){
+        result = availableMenus.filter((keyword =>{
+        return keyword.toLowerCase().includes(input.toLowerCase());
+        }));
+        console.log(result);
+    }
+    display(result);
+
+    if(!result.length){
+        resultsBox.innerHTML = ' ';
+    }
+}
+
+function display(result){
+    const content = result.map((list)=>{
+        return "<li onclick=selectInput(this)>" + list + "</li>";
+    });
+
+    resultsBox.innerHTML = "<ul>" + content.join('') + "</ul>";
+
+}
+
+function selectInput(list){
+    inputBox.value = list.innerHTML;
+    resultsBox.innerHTML = '';
+}
