@@ -371,7 +371,7 @@ input[type="submit"]:hover{
 
 
 .menu-details:hover{
-    background-color: #e9f3ff;
+    background-color: #cdcdcdeb;
     color: #000000;
 }
 
@@ -454,4 +454,48 @@ ul{
 .result-box{
     max-height: 300px;
     overflow-y: scroll;
+}
+
+.container{
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+svg{
+    width: 50px;
+}
+
+
+.icon-cart-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+header .icon-cart{
+    display: relative;
+}
+
+header .icon-cart span{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    justify-content: center;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 50%;
+    top: 50%;
+    right: -30px;
+    left: -50px;
+}
+
+.title{
+    display: block;
+    font-size: 30px;
+    text-align: left;
 }
