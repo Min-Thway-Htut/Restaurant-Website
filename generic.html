@@ -8,7 +8,7 @@
     </head>
 
     <title>Menu</title>
-    <body>
+    <body class="showCart">
         <section class="menu-bar" id="menu-bar">
             <div>
                     <ul class="horizontal-list">
@@ -19,11 +19,19 @@
             </div>
         </section>
 
+        <div class="container">
+        <header>
+            <div class="title">MENU LIST</div>
+            <div class="icon-cart">
+            <svg  aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.3L19 7H7.3"/>
+              </svg>
+              <span>0</span>
+        </div>
+    </header>
+    </div>
 
         <section class="menu" id="menu">
-            <h1>MENU</h1>
-
-           
             <div class="search-box">
                 <div class="row">
                 <input type="search" id="search" placeholder="Search menu...">
@@ -65,14 +73,14 @@
             <article class="item"> 
                 <p class = "item-broths">Spicy Broth</p><p class="price">5,00</p>
                 <button onclick="spicyBrothDetails()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="spicy-broth"></p>
             </article>    
 
             <article class="item">
                 <p class = "item-broths" id="herbal-broth">Herbal Broth</p><p class="price">5,00</p>
                 <button onclick="herbalBrothDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <script>
                     function herbalBrothDescription(){
                         let herbalBrothDescription = "best herbalbroth";
@@ -87,7 +95,7 @@
             <article class="item">
                 <p class = "item-broths" id="mushroom-broth">Mushroom Broth</p><p class="price">5,00</p>
                 <button onclick="mushroomBrothDetails()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p id="mushroom-broth" class="broth-description"></p>
 
             </article>
@@ -99,14 +107,14 @@
             <article class="item">
                 <p class = "item-meat">Beef</p><p class="price">1,00</p>
                 <button onclick = "beefDescription()" class="menu-details">See more details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="meat-item"></p>
             </article>
 
             <article class="item">
                 <p class = "item-meat">Lamb</p><p class="price">1,50</p>
                 <button onclick="lambDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="lamb-menu"></p>
 
             </article>
@@ -114,35 +122,35 @@
             <article class="item">
                 <p class = "item-meat">Pork</p><p class="price">1,00</p>
                 <button onclick="porkDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="pork-menu"></p>
             </article>
 
             <article class="item">
                 <p class = "item-meat">Chicken</p><p class="price">1,00</p>
                 <button onclick="chickenDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="chicken-menu"></p>
             </article>
 
             <article class="item">
                 <p class = "item-meat">Black Chicken</p><p class="price">1,50</p>
                 <button onclick="blackchickenDescription()" class="menu-details">See menu details</button> 
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="blackchicken-menu"></p>
             </article>
 
             <article class="item">
                 <p class = "item-meat">Seafood</p><p class="price">2,00</p>
                 <button onclick="seafoodDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="seafood-menu"></p>
             </article>
 
             <article class="item">
                 <p class = "item-meat">Beef Balls</p><p class="price">1,00</p>
                 <button onclick="beefballsDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="beefballs-menu"></p>
 
             </article>
@@ -150,7 +158,7 @@
             <article class="item">
                 <p class = "item-meat">Chicken Meatballs</p><p class="price">1,00</p>
                 <button onclick="chickenMeatBallsDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="chickenMeatBalls-menu"></p>
 
             </article>
@@ -162,7 +170,7 @@
             <article class="item">
                 <p class="item-vegetables">Mushrooms</p><p class="price">0,25</p>
                 <button onclick="vegetableDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="vegetable-menu"></p>
 
             </article>
@@ -170,28 +178,28 @@
             <article class="item">
                 <p class="item-vegetables">Chinese Cabbage</p><p class="price">0,25</p>
                 <button onclick="vegetableDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="vegetable-menu"></p>
             </article>
 
             <article class="item">
                 <p class="item-vegetables">Carrots</p><p class="price">0,25</p>
                 <button onclick="vegetableDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="vegetable-menu"></p>
             </article>
 
             <article class="item">
                 <p class="item-vegetables">Broccoli</p><p class="price">0,25</p>
                 <button onclick="vegetableDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="vegetable-menu"></p>
             </article>
 
             <article class="item">
                 <p class="item-vegetables">Baby Corn</p><p class="price">0,25</p>
                 <button onclick="vegetableDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="vegetable-menu"></p>
             </article>
         <hr/>
@@ -201,14 +209,14 @@
             <article class="item">
                 <p class="item-sauce">Soy Sauce</p>
                 <button onclick="sauceDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="sauce-menu"></p>
             </article>
 
             <article class="item">
                 <p class="item-sauce">Spicy Sauce</p>
                 <button onclick="sauceDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="sauce-menu"></p>
 
             </article>
@@ -216,7 +224,7 @@
             <article class="item">
                 <p class="item-sauce">Normal Sauce</p>
                 <button onclick="sauceDescription()" class="menu-details">See menu details</button>
-                <button>Add to cart</button>
+                <button class="add-to-cart">Add to cart</button>
                 <p class="broth-description" id="sauce-menu"></p>
             </article>
             <hr />
@@ -224,19 +232,39 @@
             <h3 id="drink">Drink and Beverage</h3>
             <img class="menu-logo drink" src="images/drink-logo.jpg" alt="drink" />
             <article class="item">
-                <p class="item-drink">Coca Cola</p><p class="price">3,00</p> <button>Add to cart</button>
-                <p class="item-drink">Coke Zero</p><p class="price">3,00</p> <button>Add to cart</button>
-                <p class="item-drink">Pepsi</p><p class="price">3,00</p> <button>Add to cart</button>
-                <p class="item-drink">Beer</p><p class="price">2,00</p> <button>Add to cart</button>
-                <p class="item-drink">Orange Juice</p><p class="price">4,50</p> <button>Add to cart</button>
-                <p class="item-drink">Apple Juice</p><p class="price">4,50</p> <button>Add to cart</button>
-                <p class="item-drink">Grape Juice</p><p class="price">4,50</p> <button>Add to cart</button>
+                <p class="item-drink">Coca Cola</p><p class="price">3,00</p> <button class="add-to-cart">Add to cart</button>
+                <p class="item-drink">Coke Zero</p><p class="price">3,00</p> <button class="add-to-cart">Add to cart</button>
+                <p class="item-drink">Pepsi</p><p class="price">3,00</p> <button class="add-to-cart">Add to cart</button>
+                <p class="item-drink">Beer</p><p class="price">2,00</p> <button class="add-to-cart">Add to cart</button>
+                <p class="item-drink">Orange Juice</p><p class="price">4,50</p> <button class="add-to-cart">Add to cart</button>
+                <p class="item-drink">Apple Juice</p><p class="price">4,50</p> <button class="add-to-cart">Add to cart</button>
+                <p class="item-drink">Grape Juice</p><p class="price">4,50</p> <button class="add-to-cart">Add to cart</button>
             </article>
         </section>
 
         <div class="cartTab">
             <h1>Shopping Cart</h1>
-            <div class="listCart"></div>
+            <div class="listCart">
+                <div class="item">
+                    <div class="name">
+                        Spicy Broth
+                    </div>
+                    <div class="totalPrice">
+                        5 euros
+                    </div>
+                    <div class="quantity">
+                        <span class="minus"><</span>
+                        <span>1</span>
+                        <span class="plus">></span>
+                    </div>
+
+                </div>
+            </div>
+                <div class="btn">
+                    <button class="close">Close</button>
+                    <button class="checkOut">Check Out</button>
+                </div>
+            </div>
         </div>
 
         <section class="menu-bar" id="menu-bar">
