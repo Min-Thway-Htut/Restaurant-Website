@@ -48,7 +48,25 @@ let products = [
         name: 'Pork',
         image: 'pork.png',
         price: 1
-    }
+    },
+    {
+        id: 7,
+        name: 'Chicken',
+        image: 'chicken.svg',
+        price: 1
+    },
+    {
+        id: 8,
+        name: 'Seafood',
+        image: 'seafood.png',
+        price: 2
+    },
+    {
+        id: 9,
+        name: 'Beef Balls',
+        image: 'beef-balls.png',
+        price: 1
+    },
 ];
 
 let listCards  = [];
