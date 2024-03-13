@@ -112,6 +112,133 @@ header .shopping span{
     padding: 10px;
 }
 
+.listCard li{
+    display: grid;
+    grid-template-columns: 100px repeat(3, 1fr);
+    color: #fff;
+    row-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.listCard li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listCard li img{
+    width: 90%;
+}
+
+.listCard button{
+    width: auto;
+    background-color: #fff5;
+    border: none;
+}
+
+.listCard .count{
+    margin: 0 10px;
+}
+
+.horizontal-list-footer li{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#li-welcome{
+    color:#ffffff;
+    font-size: 37px;
+    text-decoration: none;
+}
+
+.menu-bar{
+    background-color: black;
+    margin-top: auto;
+}
+
+.horizontal-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.horizontal-list a:hover{
+    background-color:  #343434;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+#li-welcome{
+    color:#ffffff;
+    font-size: 37px;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#li-menu{
+    color: #ffffff;
+    font-size: 37px;
+    text-decoration: none;
+}
+
+#li-name{
+    color: #ffffff;
+    font-size: 37px;
+    text-decoration: none;
+}
+
+#li-contact{
+    color: #ffffff;
+    font-size: 37px;
+    text-decoration: none;
+}
+
+#li-footer{
+    font-size: 27px;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.horizontal-list-footer{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.horizontal-list-footer li{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 
 
