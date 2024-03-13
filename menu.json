@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "name": "Spicy Broth",
+        "price": 5
+    },
+    {
+        "id": 2,
+        "name":"Herbal Broth",
+        "price": 5
+    },
+    {
+        "id": 3,
+        "name": "Mushroom Broth",
+        "price": 5
+    },
+    {
+        "id": 4,
+        "name": "Beef",
+        "price": 1
+    },
+    {
+        "id": 5,
+        "name": "Lamb",
+        "price": 1.5
+    },
+    {
+        "id": 6,
+        "name": "Pork",
+        "price": 1
+    },
+    {
+        "id": 7,
+        "name": "Chicken",
+        "price": 1
+    },
+    {
+        "id": 8,
+        "name": "Black Chicken",
+        "price": 1
+    },
+    {
+        "id": 9,
+        "name": "Seafood",
+        "price": 2
+    },
+    {
+        "id": 10,
+        "name": "Beef Balls",
+        "price": 1
+    },
+    {
+        "id": 11,
+        "name": "Chicken Meatballs",
+        "price": 1
+    },
+    {
+        "id": 12,
+        "name": "Mushrooms",
+        "price": 0.25
+    },
+    {
+        "id": 13,
+        "name": "Chinese Cabbage",
+        "price": 0.25
+    },
+    {
+        "id": 14,
+        "name": "Carrots",
+        "price": 0.25
+    },
+    {
+        "id": 15,
+        "name": "Broccoli",
+        "price": 0.25
+    },
+    {
+        "id": 16,
+        "name": "Baby Corn",
+        "price": 25
+    },
+    {
+        "id": 17,
+        "name": "Soy Sauce",
+        "price": 0
+    },
+    {
+        "id": 18,
+        "name": "Spicy Sauce",
+        "price": 0
+    },
+    {
+        "id": 19,
+        "name": "Normal Sauce",
+        "price": 0
+    },
+    {
+        "id": 20,
+        "name": "Coca Cola",
+        "price": 3
+    },
+    {
+        "id": 21,
+        "name": "Pepsi",
+        "price": 3
+    },
+    {
+        "id": 22,
+        "name": "Orange Juice",
+        "price": 4.5
+    },
+    {
+        "id": 23,
+        "name": "Grape Juice",
+        "price": 4.5
+    },
+    {
+        "id": 24,
+        "name": "Coke Zero",
+        "price": 3
+    },
+    {
+        "id": 25,
+        "name": "Beer",
+        "price": 2
+    },
+    {
+        "id": 6,
+        "name": "Apple Juice",
+        "price": 4.5
+    }
+]

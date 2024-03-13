@@ -23,6 +23,10 @@ p{
     padding-right: 30px;
 }
 
+.introduction{
+    text-align: center;
+}
+
 h1{
     font-size: 45px;
     text-align: center;
@@ -467,10 +471,10 @@ ul{
 }
 
 svg{
-    width: 50px;
+    width: 30px;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -495,13 +499,45 @@ header .icon-cart span{
     right: -20px;
 }
 
-.icon-cart-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 0;
+.listProduct .item img{
+    width: 90%;
 }
 
+.listProduct{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.listProduct .item{
+    background-color: #eeeee6;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.listProduct .item h2{
+    font-weight: 500;
+    font-size: large;
+}
+
+.listProduct .item .price{
+    letter-spacing: 7px;
+    font-size: small;
+    text-align: center;
+}
+
+.listProduct .item button{
+    background-color: #353432;
+    color: #eee;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 header .icon-cart{
     display: relative;
 }
@@ -628,4 +664,5 @@ body.showCart .container{
 .listCart::-webkit-scrollbar{
     width: 0;
 }
+
 
