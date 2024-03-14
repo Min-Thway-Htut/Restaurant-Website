@@ -67,6 +67,18 @@ let products = [
         image: 'beef-balls.png',
         price: 1
     },
+    {
+        id: 10,
+        name: 'Chicken Meatballs',
+        image: 'chicken-meatball.jpeg',
+        price: 1
+    },
+    {
+        id: 11,
+        name: 'Mushroom',
+        image: 'mushroom.jpeg',
+        price: 0.25
+    }
 ];
 
 let listCards  = [];
