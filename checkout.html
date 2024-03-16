@@ -5,10 +5,14 @@
         <meta  http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Payment</title>
+        <script src="https://www.paypal.com/sdk/js?client-id=AUCM1PgspZT529K-M3btT7c2BRI7xXjjKwsDStgBNDrCv3mIUa1yJVn1zYo2FfiB_pyqEcbA0BtNKh54"></script>
+         <script src="/checkout.js" defer></script>
         <link rel="stylesheet" href="menu.css">
        
     </head>
     <body>
+        
+
         <section class="menu-bar" id="menu-bar">
             <div>
                 <nav>
@@ -21,4 +25,27 @@
                 </nav>
             </div>
     </section>
+
+<div class="checkOut">
+    <div class="checkOutTitle">
+        <h2>Payment</h2>
+        <p class="payment-description">We adhere strictly to the Payment Card Industry Data Security Standards (PCI DSS) for your peace of mind and protection.</p>
+    </div>
+    <div class="totalAmount">
+    <input type="number" id="amount">
+    </div>
+    <div class="paypal" id="paypal">
+    </div>
+</div>
+
+    <section class="menu-bar" id="menu-bar">
+        <div>
+            <nav>
+                <ul class="horizontal-list-footer">
+                    <li><a id="li-footer" href="#">@Copyright Thint-Sate-Kyike | 2024</a></li>
+                </ul>  
+            </nav>
+        </div>
+    </section>
+
 </html>
