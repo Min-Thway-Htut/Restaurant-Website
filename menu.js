@@ -78,6 +78,84 @@ let products = [
         name: 'Mushroom',
         image: 'mushroom.jpeg',
         price: 0.25
+    },
+    {
+        id: 12,
+        name: 'Chinese Cabbage',
+        image: 'chinese-cabbage.jpg',
+        price: 0.25
+    },
+    {
+        id: 13,
+        name: 'Carrot',
+        image: 'carrot.jpg',
+        price: 0.25
+    },
+    {
+        id: 14,
+        name: ' Broccoli',
+        image: 'broccoli.jpg',
+        price: 0.25
+    },
+    {
+        id: 15,
+        name: 'Baby Corn',
+        image: 'baby-corn.png',
+        price: 0.25
+    },
+    {
+        id: 16,
+        name: 'Spicy Sauce',
+        image: 'spicy-sauce.png',
+        price: 0
+    },
+    {
+        id: 17,
+        name: 'Soy Sauce',
+        image: 'soy-sauce.png',
+        price: 0
+    },
+    {
+        id: 18,
+        name: 'Normal Sauce',
+        image: 'normal-sauce.png',
+        price: 0
+    },
+    {
+        id: 19,
+        name: 'Coca Cola',
+        image: 'coca-cola.png',
+        price: 3
+    },
+    {
+        id: 20,
+        name: 'Coke Zero',
+        image: 'coke-zero.jpg',
+        price: 3
+    },
+    {
+        id: 21,
+        name: 'Pepsi',
+        image: 'pepsi.png',
+        price: 3
+    },
+    {
+        id: 22,
+        name: 'Orange Juice',
+        image: 'orange-juice.webp',
+        price: 4.5
+    },
+    {
+        id: 23,
+        name: 'Grape Juice',
+        image: 'grape-juice.png',
+        price: 4.5
+    },
+    {
+        id: 24,
+        name: 'Apple Juice',
+        image: 'apple-juice.png',
+        price: 4.5
     }
 ];
 
