@@ -16,19 +16,19 @@ let products = [
     {
         id: 1,
         name: 'Spicy Broth',
-        image: 'spicyBroth.jpg',
+        image: 'spicy-broth.png',
         price: 5
     },
     {
         id: 2,
         name:'Herbal Broth',
-        image: 'herbal-broth.jpeg',
+        image: 'herbal-broth.webp',
         price: 5
     },
     {
         id: 3,
         name: 'Mushroom Broth',
-        image: 'mushroom-broth.jpeg',
+        image: 'mushroom-broth.png',
         price: 5
     },
     {
@@ -52,7 +52,7 @@ let products = [
     {
         id: 7,
         name: 'Chicken',
-        image: 'chicken.svg',
+        image: 'chicken.webp',
         price: 1
     },
     {
@@ -64,19 +64,19 @@ let products = [
     {
         id: 9,
         name: 'Beef Balls',
-        image: 'beef-balls.png',
+        image: 'meatball.webp',
         price: 1
     },
     {
         id: 10,
         name: 'Chicken Meatballs',
-        image: 'chicken-meatball.jpeg',
+        image: 'meatball-chicken.png',
         price: 1
     },
     {
         id: 11,
         name: 'Mushroom',
-        image: 'mushroom.jpeg',
+        image: 'mushroom.png',
         price: 0.25
     },
     {
@@ -94,7 +94,7 @@ let products = [
     {
         id: 14,
         name: ' Broccoli',
-        image: 'broccoli.jpg',
+        image: 'brocooli.webp',
         price: 0.25
     },
     {
