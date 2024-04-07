@@ -10,7 +10,7 @@ openShopping.addEventListener('click', ()=> {
     body.classList.add('active');
 })
 closeShopping.addEventListener('click', ()=>{
-    body.classList.add('active');
+    body.classList.remove('active');
 })
 let products = [
     {
@@ -176,7 +176,7 @@ initApp();
 
 function addToCard(key){
     if(listCards[key] == null){
-        listCards[key] = products[key];
+        listCards[key] = JSON.parse(JSON.stringify(products[key]));
         listCards[key].quantity = 1;
     }
     reloadCard();
