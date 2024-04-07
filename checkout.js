@@ -18,4 +18,3 @@ paypal.Buttons({
         });
     }
 }).render('#paypal')
-
