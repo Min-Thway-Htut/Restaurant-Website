@@ -1,2 +1,2 @@
 This project is intended for the App & Web Development final assignment. I created a simple commercial website for a particular restaurant. In the website, the user will be able
-to see the contents of the webisite like the description of the business, the menu, the address, the contact information, and the details of the menu. In addition to that, food can be ordered and there will be a functional payment method in the website.
+to see the contents of the webisite like the description of the business, the menu, the address, the contact information, and the details of the menu. In addition to that, food can be ordered online and there will be a functional payment method in the website.
